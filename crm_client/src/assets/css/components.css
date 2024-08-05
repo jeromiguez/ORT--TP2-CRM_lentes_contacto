@@ -1,0 +1,77 @@
+/* start - BUTTON */
+.button {
+  border: none;
+  box-sizing: border-box;
+}
+
+.button-solid {
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  color: var(--color-text-primary);
+  padding: 8px 12px;
+}
+
+.button-solid:hover {
+  background-color: var(--color-button-hover);
+  cursor: pointer;
+}
+
+.button-ghost {
+  background-color: transparent;
+  color: var(--bs-body-color);
+}
+
+.button-ghost:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+/* end - BUTTON */
+
+/* start - INPUT */
+.input {
+  background-color: var(--color-background-inputs);
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--color-text-primary);
+  margin-top: 4px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.input-label {
+  display: block;
+}
+/* end - INPUT */
+
+/* start - Text */
+.title {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.subtitle {
+  color: var(--bs-body-color);
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.label {
+  color: var(--bs-body-color);
+  width: 100%;
+}
+/* end - Text */
+
+/* start - Table */
+.table {
+  margin-bottom: 60px
+}
+/* end - Table */
+
+/* start - Pagination */
+.pagination {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+}
+/* end - Pagination */
